@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "OptionListController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[OptionListController alloc]initWithStyle:UITableViewStylePlain];
+    
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

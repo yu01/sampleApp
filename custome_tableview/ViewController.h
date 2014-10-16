@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITabBarDelegate, UITableViewDataSource>
 
 
+@property (nonatomic) UITableView *tableView;
 @end
 

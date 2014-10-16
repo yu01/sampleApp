@@ -10,10 +10,11 @@
 		7F84074219EFAE4900CCCB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84074119EFAE4900CCCB6A /* main.m */; };
 		7F84074519EFAE4900CCCB6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84074419EFAE4900CCCB6A /* AppDelegate.m */; };
 		7F84074819EFAE4900CCCB6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84074719EFAE4900CCCB6A /* ViewController.m */; };
-		7F84074B19EFAE4900CCCB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F84074919EFAE4900CCCB6A /* Main.storyboard */; };
 		7F84074D19EFAE4900CCCB6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F84074C19EFAE4900CCCB6A /* Images.xcassets */; };
-		7F84075019EFAE4900CCCB6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F84074E19EFAE4900CCCB6A /* LaunchScreen.xib */; };
 		7F84075C19EFAE4A00CCCB6A /* custome_tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84075B19EFAE4A00CCCB6A /* custome_tableviewTests.m */; };
+		7F84076719EFB49000CCCB6A /* OptionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84076619EFB49000CCCB6A /* OptionListController.m */; };
+		7F84076A19EFC0D000CCCB6A /* CustomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84076919EFC0D000CCCB6A /* CustomeTableViewCell.m */; };
+		7F84076C19EFC1A500CCCB6A /* line_separate2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F84076B19EFC1A500CCCB6A /* line_separate2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,15 @@
 		7F84074419EFAE4900CCCB6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7F84074619EFAE4900CCCB6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7F84074719EFAE4900CCCB6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7F84074A19EFAE4900CCCB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F84074C19EFAE4900CCCB6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7F84074F19EFAE4900CCCB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7F84075519EFAE4A00CCCB6A /* custome_tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custome_tableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F84075A19EFAE4A00CCCB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F84075B19EFAE4A00CCCB6A /* custome_tableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custome_tableviewTests.m; sourceTree = "<group>"; };
+		7F84076519EFB49000CCCB6A /* OptionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionListController.h; sourceTree = "<group>"; };
+		7F84076619EFB49000CCCB6A /* OptionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionListController.m; sourceTree = "<group>"; };
+		7F84076819EFC0D000CCCB6A /* CustomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeTableViewCell.h; sourceTree = "<group>"; };
+		7F84076919EFC0D000CCCB6A /* CustomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeTableViewCell.m; sourceTree = "<group>"; };
+		7F84076B19EFC1A500CCCB6A /* line_separate2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_separate2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +89,12 @@
 				7F84074419EFAE4900CCCB6A /* AppDelegate.m */,
 				7F84074619EFAE4900CCCB6A /* ViewController.h */,
 				7F84074719EFAE4900CCCB6A /* ViewController.m */,
-				7F84074919EFAE4900CCCB6A /* Main.storyboard */,
+				7F84076519EFB49000CCCB6A /* OptionListController.h */,
+				7F84076619EFB49000CCCB6A /* OptionListController.m */,
+				7F84076819EFC0D000CCCB6A /* CustomeTableViewCell.h */,
+				7F84076919EFC0D000CCCB6A /* CustomeTableViewCell.m */,
+				7F84076B19EFC1A500CCCB6A /* line_separate2.png */,
 				7F84074C19EFAE4900CCCB6A /* Images.xcassets */,
-				7F84074E19EFAE4900CCCB6A /* LaunchScreen.xib */,
 				7F84073F19EFAE4900CCCB6A /* Supporting Files */,
 			);
 			path = custome_tableview;
@@ -199,8 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F84074B19EFAE4900CCCB6A /* Main.storyboard in Resources */,
-				7F84075019EFAE4900CCCB6A /* LaunchScreen.xib in Resources */,
+				7F84076C19EFC1A500CCCB6A /* line_separate2.png in Resources */,
 				7F84074D19EFAE4900CCCB6A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +227,8 @@
 			files = (
 				7F84074819EFAE4900CCCB6A /* ViewController.m in Sources */,
 				7F84074519EFAE4900CCCB6A /* AppDelegate.m in Sources */,
+				7F84076719EFB49000CCCB6A /* OptionListController.m in Sources */,
+				7F84076A19EFC0D000CCCB6A /* CustomeTableViewCell.m in Sources */,
 				7F84074219EFAE4900CCCB6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +250,6 @@
 			targetProxy = 7F84075619EFAE4A00CCCB6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7F84074919EFAE4900CCCB6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F84074A19EFAE4900CCCB6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7F84074E19EFAE4900CCCB6A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F84074F19EFAE4900CCCB6A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7F84075D19EFAE4A00CCCB6A /* Debug */ = {
@@ -344,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = custome_tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = custome_tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
