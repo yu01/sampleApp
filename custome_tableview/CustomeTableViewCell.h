@@ -11,9 +11,9 @@
 @interface CustomeTableViewCell : UITableViewCell
 
 
-@property (nonatomic) UILabel *depLabel;
-@property (nonatomic) UILabel *desLabel;
-@property (nonatomic) UILabel *timingLabel;
+@property (nonatomic) UILabel *firstlabel;
+@property (nonatomic) UILabel *secondLabel;
+@property (nonatomic) UILabel *thirdLabel;
 @property (nonatomic) UIButton *button;
 
 @end

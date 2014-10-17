@@ -6,19 +6,17 @@
 //  Copyright (c) 2014年 Yuichi Yoshida. All rights reserved.
 //
 
-#import "OptionListController.h"
+#import "CustomeTableViewController.h"
 #import "Search.h"
 #import "CustomeTableViewCell.h"
 
-@interface OptionListController ()
+@interface CustomeTableViewController ()
 
 
 
 @end
 
-@implementation OptionListController {
-    dispatch_once_t onceToken;
-}
+@implementation CustomeTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -63,9 +61,9 @@
         cell = [[CustomeTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.depLabel.text = @"モト";
-    cell.desLabel.text = @"アップ";
-    cell.timingLabel.text = @"トラスト";
+    cell.firstlabel.text = @"モト";
+    cell.secondLabel.text = @"アップ";
+    cell.thirdLabel.text = @"トラスト";
     
     [cell.button addTarget:self action:@selector(onMyButtonTouch:event:) forControlEvents:UIControlEventTouchDown];
     return cell;
